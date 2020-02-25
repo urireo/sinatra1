@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html> <head> </head> 
+<body>
+    "Results are as follows:"
+    <% @my_array.each do |row| %>
+      <% row.each  do |att| + " | " %>
+        <%= att %>
+      <%end %>
+      <br>
+	<% end %>
+ </body>
+</html>
